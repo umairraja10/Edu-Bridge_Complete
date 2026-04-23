@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+
+
+    <header>
+    <div class="nav-container">
+           <a href="index.html" style="text-decoration: none; color: yellow;">EduBridge</a></h1>
+      <nav>
+        <ul class="nav-links">
+        <li><a href="Login.html">Login</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h2>Admin Dashboard</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Category</th>
+          <th>Subject</th>
+          <th>Message</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody id="tableBody">
+        <!-- Data will come from JS -->
+      </tbody>
+    </table>
+
+    <button id="logoutBtn" class="logout-btn">Logout</button>
+  </div>
+
+
+
+  <footer>
+  <p>&copy; 2026 EduBridge</p>
+  <p>Connecting teachers and students together for a brighter future.</p>
+  <p>Tel: 02079462958</p>
+  <p>Email: info@edubridge.org</p>
+</footer>
+  <script src="admin.js"></script>
+</body>
+</html>
